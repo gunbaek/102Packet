@@ -39,7 +39,7 @@ class TabMonitor(QWidget):
         self._favorite = False
         self.serial_connection = None  # Add a variable to manage the serial connection
         self.serial_reader_thread = None  # Thread for reading serial data
-
+        
         # Add a label to tab
         self.CBox_Comport = QComboBox()
         self.CBox_Baudrate = QComboBox()
